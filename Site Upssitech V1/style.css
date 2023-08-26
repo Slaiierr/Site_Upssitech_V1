@@ -1,0 +1,316 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+.init {
+  background-color: beige;
+  color: #222222;
+}
+
+.red {
+  background-color: #b42318;
+  color: #222222;
+}
+
+.black {
+  background-color: #222222;
+  color: #b42318;
+}
+
+.site1 nav {
+  background-color: #222222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  transition: top 0.2s;
+}
+
+.site1 nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site1 nav li {
+  display: inline-block;
+}
+
+.site1 nav a {
+  color: #b42318;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.site1 nav a:hover {
+  transition: 0.8s;
+  border-radius: 15px;
+  background-color: #b42318;
+  color: #222222;
+}
+
+.fixed-nav nav {
+  position: fixed;
+  top: 0;
+}
+
+.site1 .navbar_btn {
+  display: inline;
+}
+
+.site1 #btn_color_red {
+  cursor: pointer;
+  border: none;
+  background-color: #b42318;
+  color: #222222;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.site1 #btn_color_red:hover {
+  transition: 0.6s;
+  background-color: #222222;
+  color: #b42318;
+}
+
+.site1 #btn_color_black {
+  cursor: pointer;
+  border: none;
+  background-color: #222222;
+  color: #b42318;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.site1 #btn_color_black:hover {
+  transition: 0.6s;
+  background-color: #b42318;
+  color: #222222;
+}
+
+.site1 #btn_color_init {
+  cursor: pointer;
+  border: none;
+  background-color: beige;
+  color: #222222;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.site1 #btn_color_init:hover {
+  transition: 0.6s;
+  background-color: #222222;
+  color: beige;
+}
+
+.site1 header {
+  background-image: URL(https://www.letudiant.fr/uploads/mediatheque/ETU_ETU/3/0/274230-15289749959-3b85439d68-o-original.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+#titre_haut_page_1 {
+  font-size: 110px;
+  color: #b42318;
+  text-decoration: underline;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1720px) {
+  #titre_haut_page_2 {
+    padding: 15px;
+    color: beige;
+    background-color: #000000a6;
+    border-radius: 60px;
+    transition: 2s;
+  }
+}
+
+.titre_presentation {
+  padding: 15px;
+  text-decoration: underline 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.site1 #formations {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.site1 #formations ul li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.site1 #GCGEO {
+  background-color: #222222;
+  color: #b42318;
+  border-radius: 10px;
+  padding: 10px;
+  width: 32%;
+  float: left;
+}
+
+.site1 #GCGEO h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.site1 #GCGEO p {
+  padding: 15px;
+}
+
+.site1 #SRI {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #b42318;
+  color: #222222;
+  padding: 10px;
+  border-radius: 10px;
+  width: 32%;
+  float: left;
+}
+
+.site1 #SRI h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.site1 #SRI p {
+  padding: 15px;
+}
+
+.site1 #STRI {
+  background-color: #222222;
+  color: #b42318;
+  border-radius: 10px;
+  padding: 10px;
+  width: 32%;
+  float: left;
+}
+
+.site1 #STRI h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.site1 #STRI p {
+  padding: 15px;
+}
+
+.site1 #admissions {
+  display: block;
+  margin-top: 320px;
+}
+
+.site1 #admissions h2 {
+  clear: both;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.site1 #admissions h3 {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.site1 #admissions ul {
+  margin-left: 30px;
+}
+
+.site1 #admissions ul li {
+  font-size: 18px;
+  text-align: justify;
+  list-style: square inside;
+}
+
+.site1 #admissions p {
+  margin-left: 10px;
+}
+
+.site1 #divers {
+  background-color: #222222;
+  color: beige;
+}
+
+.site1 #divers p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.site1 #contact {
+  margin: 10px 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.site1 .tel .adresse {
+  color: #222222;
+}
+
+.site1 .tel button {
+  cursor: pointer;
+}
+
+.btn_cache button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  background-color: #222222;
+  color: #222222;
+}
+
+footer {
+  background-color: #222222;
+}
+
+footer p {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+footer p :hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: beige;
+  font-size: 13px;
+  position: static;
+  text-align: right;
+  margin-right: 10px;
+}
+
+footer p a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #b42318;
+  border-radius: 15px;
+  border-color: aliceblue;
+  transition: 0.6s;
+}
